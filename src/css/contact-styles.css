@@ -1,0 +1,138 @@
+
+#mainbody h3{color:#2f2f2f;}
+section ul li{list-style: none;}
+
+section ul{
+	margin: auto;
+	width: 90%;
+}
+
+form{
+	margin-top: 20px;
+}
+form label{
+	color:#999;
+}
+
+
+input[type=text], input[type=password], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 95%;
+    background-color: #1e968d;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 40px;
+}
+
+input[type=submit]:hover {
+    background-color: #046e66;
+}
+
+
+
+
+
+
+.pull-left2{
+	float: left;
+	width: 50%;
+	-webkit-transition:all 1s ease;
+         -moz-transition:all 1s ease;
+               -o-transition:all 1s ease;
+                     transition:all 1s ease;
+}
+.pull-right2{
+	float: right;
+	width: 50%;
+	-webkit-transition:all 1s ease;
+         -moz-transition:all 1s ease;
+               -o-transition:all 1s ease;
+                     transition:all 1s ease;
+}
+
+#messages-ok{
+	width: 91%;
+	margin-top: 40px;
+	padding: 20px;
+	background-color: #1e963c;
+	margin: auto;
+	border-radius: 4px 4px 4px 4px;
+	-moz-border-radius: 4px 4px 4px 4px;
+	-webkit-border-radius: 4px 4px 4px 4px;
+	border: 0px solid #000000;
+
+}
+#messages-ok h4{
+	text-align: center;
+	color: white;
+		-webkit-transition:all 1s ease;
+         -moz-transition:all 1s ease;
+               -o-transition:all 1s ease;
+                     transition:all 1s ease;
+}
+#messages-error{
+	width: 91%;
+	margin-top: 40px;
+	padding: 20px;
+	background-color: #961e1e;
+	margin: auto;
+	border-radius: 4px 4px 4px 4px;
+	-moz-border-radius: 4px 4px 4px 4px;
+	-webkit-border-radius: 4px 4px 4px 4px;
+	border: 0px solid #000000;
+
+}
+#messages-error h4{
+	text-align: center;
+	color: white;
+		-webkit-transition:all 1s ease;
+         -moz-transition:all 1s ease;
+               -o-transition:all 1s ease;
+                     transition:all 1s ease;
+}
+
+#messages {
+	width: 100%;
+}
+
+@media only screen and (max-width: 650px) {
+	.pull-left2{
+		float: none;
+		width: 100%;
+	}
+	.pull-right2{
+		float: none;
+		width: 100%;
+	}
+	section{
+		text-align: center;
+	}
+	input[type=submit] {
+		width: 90%;
+	}
+	#messages-error h4{
+		font-size: 15px;
+	}
+	#messages-ok h4{
+		font-size: 15px;
+	}
+	#messages-error{
+		width: 82%;
+	}
+	#messages-ok{
+		width: 82%;
+	}
+}

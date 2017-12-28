@@ -1,0 +1,9 @@
+/*WYSIWYG STYLES*/
+.text-left{text-align: left;}
+.text-center{text-align: center;}
+.text-right{text-align: right;}
+.link{color: #559ebd;-o-transition:all.5s ease;-moz-transition:all.5s ease;-webkit-transition:all.5s ease;}
+/*.cus-link-*/
+.link:hover{color: #00b3ff;}
+.no-decorate{text-decoration: none;}
+/*WYSIWYG STYLES*/
